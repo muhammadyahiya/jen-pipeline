@@ -12,8 +12,7 @@ pipeline {
         password(name: 'SONAR_SERVER_PWD', description: 'Enter App password')
     }
     stages {
-        stage('Printing Parameters)
-        {
+        stage('Printing Parameters') {
             steps {
                 echo "Hello ${params.NAME}"
  
